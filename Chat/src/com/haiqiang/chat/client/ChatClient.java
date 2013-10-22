@@ -1,3 +1,5 @@
+package com.haiqiang.chat.client;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;

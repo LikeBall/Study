@@ -1,0 +1,11 @@
+package com.haiqiang.chat.server;
+
+public class ClientThread implements Runnable {
+
+	@Override
+	public void run() {
+		
+
+	}
+
+}

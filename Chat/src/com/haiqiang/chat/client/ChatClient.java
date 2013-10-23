@@ -4,6 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import java.net.Socket;
+import java.net.SocketException;
 import java.net.UnknownHostException;
 
 public class ChatClient extends Frame {
@@ -62,6 +63,8 @@ public class ChatClient extends Frame {
 			while(true) {
 				taContext.append(dis.readUTF() + "\n");
 			}		
+		} catch (SocketException e) {
+			System.out.println("Œ“ÕÀ≥ˆ¡À");
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
